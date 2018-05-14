@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Соціальне опитування</title>
+</head>
+<body>
+<center><h1>Соціальне опитування</h1></center>   
+Ім'я: <br />
+<input name="name" type="text" size="25" maxlength="30" value="" /> <br />
+Прізвище: <br />
+<input name="surname" type="text" size="25" maxlength="30" value="" /> <br />
+Пароль: <br />
+<input name="pd" type="password" size="25" maxlength="30" value="" /> <br />
+Додатково: <br />
+<textarea name="comment" id="comment" cols="48" rows="8"> </textarea><br />
+Вік: <br />
+<form action="http://ab-w.net/info.php" method="post" name="drop_down_box">
+<select name="menu" size="1">
+<option selected="selected" value="first">18</option>
+<option value="second">19</option>
+<option value="third">20</option>
+<option value="fourth">21</option>
+<option value="fifth">22</option>
+<option value="sixth">23</option>
+<option value="seventh">24</option>
+<option value="eighth">25</option>
+<option value="ninth">26</option>
+<option value="tenth">27</option>
+</select>
+</form></p>
+Місто: <br />
+<form action="http://ab-w.net/info.php" method="post" name="drop_down_box">
+<select name="menu" size="5">
+<option selected="selected" value="first">Київ</option>
+<option value="second">Львів</option>
+<option value="third">Харків</option>
+<option value="fourth">Одеса</option>
+<option value="fifth">Херсон</option>
+<option value="sixth">Ужгород</option>
+<option value="seventh">Чернівці</option>
+<option value="eighth">Івано-Франківськ</option>
+<option value="ninth">Луганськ</option>
+<option value="tenth">Тернопіль</option>
+</select>
+</form></p>
+Які країни хочете віввідати?: <br />
+<form name="country" action="http://ab-w.net/info.php" method="get">
+<input type="checkbox" name="country" value="США" checked="checked" /> США<br /> 
+<input type="checkbox" name="country" value="Канада" /> Канада<br />
+<input type="checkbox" name="country" value="Німеччина" /> Німеччина<br />  
+<input type="checkbox" name="country" value="Австрія" /> Австрія<br />  
+<input type="checkbox" name="country" value="Італія" /> Італія<br />  
+<input type="checkbox" name="country" value="Греція" /> Греція<br />  
+<input type="checkbox" name="country" value="Іспанія" /> Іспанія<br />  
+<input type="checkbox" name="country" value="Китай" /> Китай<br />  
+<input type="checkbox" name="country" value="Японія" /> Японія<br />  
+<input type="reset" value="Reset" />
+</form></p>
+<form name="male_female" action="" method="post">
+Стать:<br />
+<input type="radio" name="Sex" value="Чоловіча" /> Ч<br />
+<input type="radio" name="Sex" value="Жіноча" /> Ж<br />
+<input type="reset" value="Reset" />
+</form></p>
+<input name="remember" type="checkbox" value="yes" /> Запам'ятати мене <br /></p>
+<input type="submit" name="enter" value="Підтвердити" />
+</form></p>
+</body>
+</html>
